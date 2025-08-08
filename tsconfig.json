@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noEmit": false,
+    "resolveJsonModule": true,
+    "module": "node18",
+    "types": [
+      "node"
+    ],
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/",
+    "pikku-gen/*",
+    "client/mcp.ts",
+    "client/mcp-server.test.ts"
+  ]
+}
