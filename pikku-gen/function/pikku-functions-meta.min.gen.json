@@ -1,0 +1,37 @@
+{
+  "sayHello": {
+    "pikkuFuncName": "sayHello",
+    "inputSchemaName": "SayHelloInput",
+    "outputSchemaName": "SayHelloOutput"
+  },
+  "disableTool": {
+    "pikkuFuncName": "disableTool",
+    "inputSchemaName": "DisableToolInput",
+    "outputSchemaName": "DisableToolOutput"
+  },
+  "calculate": {
+    "pikkuFuncName": "calculate",
+    "inputSchemaName": "CalculateInput",
+    "outputSchemaName": "CalculateOutput"
+  },
+  "getStaticResource": {
+    "pikkuFuncName": "getStaticResource",
+    "inputSchemaName": null,
+    "outputSchemaName": "GetStaticResourceOutput"
+  },
+  "getUserInfo": {
+    "pikkuFuncName": "getUserInfo",
+    "inputSchemaName": "GetUserInfoInput",
+    "outputSchemaName": "GetUserInfoOutput"
+  },
+  "staticPromptGenerator": {
+    "pikkuFuncName": "staticPromptGenerator",
+    "inputSchemaName": null,
+    "outputSchemaName": "StaticPromptGeneratorOutput"
+  },
+  "dynamicPromptGenerator": {
+    "pikkuFuncName": "dynamicPromptGenerator",
+    "inputSchemaName": "DynamicPromptGeneratorInput",
+    "outputSchemaName": "DynamicPromptGeneratorOutput"
+  }
+}
