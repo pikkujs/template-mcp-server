@@ -1,0 +1,15 @@
+{
+  "getTodoResource": "getTodoResource",
+  "createTodoTool": "createTodoTool",
+  "completeTodoTool": "completeTodoTool",
+  "deleteTodoTool": "deleteTodoTool",
+  "planDayPrompt": "planDayPrompt",
+  "prioritizePrompt": "prioritizePrompt",
+  "listTodos": "listTodos",
+  "getTodo": "getTodo",
+  "createTodo": "createTodo",
+  "updateTodo": "updateTodo",
+  "deleteTodo": "deleteTodo",
+  "completeTodo": "completeTodo",
+  "rpcCaller": "rpcCaller"
+}

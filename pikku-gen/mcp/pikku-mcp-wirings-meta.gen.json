@@ -1,0 +1,93 @@
+{
+  "resourcesMeta": {
+    "todos/{id}": {
+      "pikkuFuncName": "getTodoResource",
+      "uri": "todos/{id}",
+      "title": "Todo Details",
+      "description": "Get details of a specific todo by ID",
+      "tags": [
+        "todos"
+      ],
+      "inputSchema": "GetTodoResourceInput",
+      "outputSchema": "GetTodoResourceOutput"
+    }
+  },
+  "toolsMeta": {
+    "createTodo": {
+      "pikkuFuncName": "createTodoTool",
+      "name": "createTodo",
+      "description": "Create a new todo item with title, description, priority, dueDate, and tags",
+      "tags": [
+        "todos",
+        "create"
+      ],
+      "inputSchema": "CreateTodoToolInput",
+      "outputSchema": "CreateTodoToolOutput"
+    },
+    "completeTodo": {
+      "pikkuFuncName": "completeTodoTool",
+      "name": "completeTodo",
+      "description": "Mark a todo as complete by ID",
+      "tags": [
+        "todos",
+        "update"
+      ],
+      "inputSchema": "CompleteTodoToolInput",
+      "outputSchema": "CompleteTodoToolOutput"
+    },
+    "deleteTodo": {
+      "pikkuFuncName": "deleteTodoTool",
+      "name": "deleteTodo",
+      "description": "Delete a todo by ID",
+      "tags": [
+        "todos",
+        "delete"
+      ],
+      "inputSchema": "DeleteTodoToolInput",
+      "outputSchema": "DeleteTodoToolOutput"
+    }
+  },
+  "promptsMeta": {
+    "planDay": {
+      "pikkuFuncName": "planDayPrompt",
+      "name": "planDay",
+      "description": "Generate a daily plan based on pending todos",
+      "tags": [
+        "productivity",
+        "planning"
+      ],
+      "inputSchema": "PlanDayPromptInput",
+      "outputSchema": "PlanDayPromptOutput",
+      "arguments": [
+        {
+          "name": "userId",
+          "description": "User ID (uses demo user if not provided)",
+          "required": false
+        }
+      ]
+    },
+    "prioritize": {
+      "pikkuFuncName": "prioritizePrompt",
+      "name": "prioritize",
+      "description": "Help prioritize todos based on urgency, importance, or quick-wins",
+      "tags": [
+        "productivity",
+        "prioritization"
+      ],
+      "inputSchema": "PrioritizePromptInput",
+      "outputSchema": "PrioritizePromptOutput",
+      "arguments": [
+        {
+          "name": "userId",
+          "description": "User ID (uses demo user if not provided)",
+          "required": false
+        },
+        {
+          "name": "focus",
+          "description": "Prioritization focus",
+          "required": false
+        }
+      ]
+    }
+  }
+}
