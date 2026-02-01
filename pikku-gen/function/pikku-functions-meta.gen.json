@@ -1,0 +1,191 @@
+{
+  "getTodoResource": {
+    "pikkuFuncName": "getTodoResource",
+    "name": "getTodoResource",
+    "inputSchemaName": "GetTodoResourceInput",
+    "outputSchemaName": "GetTodoResourceOutput",
+    "inputs": [
+      "GetTodoResourceInput"
+    ],
+    "outputs": [
+      "GetTodoResourceOutput"
+    ]
+  },
+  "createTodoTool": {
+    "pikkuFuncName": "createTodoTool",
+    "name": "createTodoTool",
+    "inputSchemaName": "CreateTodoToolInput",
+    "outputSchemaName": "CreateTodoToolOutput",
+    "inputs": [
+      "CreateTodoToolInput"
+    ],
+    "outputs": [
+      "CreateTodoToolOutput"
+    ]
+  },
+  "completeTodoTool": {
+    "pikkuFuncName": "completeTodoTool",
+    "name": "completeTodoTool",
+    "inputSchemaName": "CompleteTodoToolInput",
+    "outputSchemaName": "CompleteTodoToolOutput",
+    "inputs": [
+      "CompleteTodoToolInput"
+    ],
+    "outputs": [
+      "CompleteTodoToolOutput"
+    ]
+  },
+  "deleteTodoTool": {
+    "pikkuFuncName": "deleteTodoTool",
+    "name": "deleteTodoTool",
+    "inputSchemaName": "DeleteTodoToolInput",
+    "outputSchemaName": "DeleteTodoToolOutput",
+    "inputs": [
+      "DeleteTodoToolInput"
+    ],
+    "outputs": [
+      "DeleteTodoToolOutput"
+    ]
+  },
+  "planDayPrompt": {
+    "pikkuFuncName": "planDayPrompt",
+    "name": "planDayPrompt",
+    "inputSchemaName": "PlanDayPromptInput",
+    "outputSchemaName": "PlanDayPromptOutput",
+    "inputs": [
+      "PlanDayPromptInput"
+    ],
+    "outputs": [
+      "PlanDayPromptOutput"
+    ]
+  },
+  "prioritizePrompt": {
+    "pikkuFuncName": "prioritizePrompt",
+    "name": "prioritizePrompt",
+    "inputSchemaName": "PrioritizePromptInput",
+    "outputSchemaName": "PrioritizePromptOutput",
+    "inputs": [
+      "PrioritizePromptInput"
+    ],
+    "outputs": [
+      "PrioritizePromptOutput"
+    ]
+  },
+  "listTodos": {
+    "pikkuFuncName": "listTodos",
+    "name": "listTodos",
+    "inputSchemaName": "ListTodosInput",
+    "outputSchemaName": "ListTodosOutput",
+    "inputs": [
+      "ListTodosInput"
+    ],
+    "outputs": [
+      "ListTodosOutput"
+    ]
+  },
+  "getTodo": {
+    "pikkuFuncName": "getTodo",
+    "name": "getTodo",
+    "inputSchemaName": "GetTodoInput",
+    "outputSchemaName": "GetTodoOutput",
+    "inputs": [
+      "GetTodoInput"
+    ],
+    "outputs": [
+      "GetTodoOutput"
+    ]
+  },
+  "createTodo": {
+    "pikkuFuncName": "createTodo",
+    "name": "createTodo",
+    "inputSchemaName": "CreateTodoInput",
+    "outputSchemaName": "CreateTodoOutput",
+    "inputs": [
+      "CreateTodoInput"
+    ],
+    "outputs": [
+      "CreateTodoOutput"
+    ]
+  },
+  "updateTodo": {
+    "pikkuFuncName": "updateTodo",
+    "name": "updateTodo",
+    "inputSchemaName": "UpdateTodoInput",
+    "outputSchemaName": "UpdateTodoOutput",
+    "inputs": [
+      "UpdateTodoInput"
+    ],
+    "outputs": [
+      "UpdateTodoOutput"
+    ]
+  },
+  "deleteTodo": {
+    "pikkuFuncName": "deleteTodo",
+    "name": "deleteTodo",
+    "inputSchemaName": "DeleteTodoInput",
+    "outputSchemaName": "DeleteTodoOutput",
+    "inputs": [
+      "DeleteTodoInput"
+    ],
+    "outputs": [
+      "DeleteTodoOutput"
+    ]
+  },
+  "completeTodo": {
+    "pikkuFuncName": "completeTodo",
+    "name": "completeTodo",
+    "inputSchemaName": "CompleteTodoInput",
+    "outputSchemaName": "CompleteTodoOutput",
+    "inputs": [
+      "CompleteTodoInput"
+    ],
+    "outputs": [
+      "CompleteTodoOutput"
+    ]
+  },
+  "testEventTrigger": {
+    "pikkuFuncName": "testEventTrigger",
+    "name": "testEventTrigger",
+    "inputSchemaName": "TestEventTriggerInput",
+    "outputSchemaName": "TestEventTriggerOutput",
+    "inputs": [
+      "TestEventTriggerInput"
+    ],
+    "outputs": [
+      "TestEventTriggerOutput"
+    ]
+  },
+  "onTestEvent": {
+    "pikkuFuncName": "onTestEvent",
+    "name": "onTestEvent",
+    "inputSchemaName": "OnTestEventInput",
+    "outputSchemaName": "OnTestEventOutput",
+    "inputs": [
+      "OnTestEventInput"
+    ],
+    "outputs": [
+      "OnTestEventOutput"
+    ],
+    "internal": true
+  },
+  "rpcCaller": {
+    "pikkuFuncName": "rpcCaller",
+    "name": "rpcCaller",
+    "inputSchemaName": "RpcCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "RpcCallerInput"
+    ],
+    "outputs": []
+  },
+  "pikkuFn_src_wirings_rpc_wiring_ts_L31C9": {
+    "pikkuFuncName": "pikkuFn_src_wirings_rpc_wiring_ts_L31C9",
+    "name": "pikkuFn_src_wirings_rpc_wiring_ts_L31C9",
+    "inputSchemaName": "PikkuFn_src_wirings_rpc_wiring_ts_L31C9Input",
+    "outputSchemaName": null,
+    "inputs": [
+      "PikkuFn_src_wirings_rpc_wiring_ts_L31C9Input"
+    ],
+    "outputs": []
+  }
+}
