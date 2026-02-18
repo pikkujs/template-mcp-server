@@ -1,0 +1,378 @@
+{
+  "listTodos": {
+    "pikkuFuncName": "listTodos",
+    "name": "listTodos",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "todoStore"
+      ]
+    },
+    "inputSchemaName": "ListTodosInput",
+    "outputSchemaName": "ListTodosOutput",
+    "inputs": [
+      "ListTodosInput"
+    ],
+    "outputs": [
+      "ListTodosOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "getTodo": {
+    "pikkuFuncName": "getTodo",
+    "name": "getTodo",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "todoStore"
+      ]
+    },
+    "inputSchemaName": "GetTodoInput",
+    "outputSchemaName": "GetTodoOutput",
+    "inputs": [
+      "GetTodoInput"
+    ],
+    "outputs": [
+      "GetTodoOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "createTodo": {
+    "pikkuFuncName": "createTodo",
+    "name": "createTodo",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "eventHub",
+        "todoStore"
+      ]
+    },
+    "inputSchemaName": "CreateTodoInput",
+    "outputSchemaName": "CreateTodoOutput",
+    "inputs": [
+      "CreateTodoInput"
+    ],
+    "outputs": [
+      "CreateTodoOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "updateTodo": {
+    "pikkuFuncName": "updateTodo",
+    "name": "updateTodo",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "eventHub",
+        "todoStore"
+      ]
+    },
+    "inputSchemaName": "UpdateTodoInput",
+    "outputSchemaName": "UpdateTodoOutput",
+    "inputs": [
+      "UpdateTodoInput"
+    ],
+    "outputs": [
+      "UpdateTodoOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "deleteTodo": {
+    "pikkuFuncName": "deleteTodo",
+    "name": "deleteTodo",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "eventHub",
+        "todoStore"
+      ]
+    },
+    "inputSchemaName": "DeleteTodoInput",
+    "outputSchemaName": "DeleteTodoOutput",
+    "inputs": [
+      "DeleteTodoInput"
+    ],
+    "outputs": [
+      "DeleteTodoOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "completeTodo": {
+    "pikkuFuncName": "completeTodo",
+    "name": "completeTodo",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "eventHub",
+        "todoStore"
+      ]
+    },
+    "inputSchemaName": "CompleteTodoInput",
+    "outputSchemaName": "CompleteTodoOutput",
+    "inputs": [
+      "CompleteTodoInput"
+    ],
+    "outputs": [
+      "CompleteTodoOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "getTodoResource": {
+    "pikkuFuncName": "getTodoResource",
+    "name": "getTodoResource",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "usedWires": [
+      "rpc",
+      "mcp"
+    ],
+    "inputSchemaName": "GetTodoResourceInput",
+    "outputSchemaName": "GetTodoResourceOutput",
+    "inputs": [
+      "GetTodoResourceInput"
+    ],
+    "outputs": [
+      "GetTodoResourceOutput"
+    ],
+    "isDirectFunction": true
+  },
+  "createTodoTool": {
+    "pikkuFuncName": "createTodoTool",
+    "name": "createTodoTool",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "usedWires": [
+      "rpc"
+    ],
+    "inputSchemaName": "CreateTodoToolInput",
+    "outputSchemaName": "CreateTodoToolOutput",
+    "inputs": [
+      "CreateTodoToolInput"
+    ],
+    "outputs": [
+      "CreateTodoToolOutput"
+    ],
+    "isDirectFunction": true
+  },
+  "completeTodoTool": {
+    "pikkuFuncName": "completeTodoTool",
+    "name": "completeTodoTool",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "usedWires": [
+      "rpc"
+    ],
+    "inputSchemaName": "CompleteTodoToolInput",
+    "outputSchemaName": "CompleteTodoToolOutput",
+    "inputs": [
+      "CompleteTodoToolInput"
+    ],
+    "outputs": [
+      "CompleteTodoToolOutput"
+    ],
+    "isDirectFunction": true
+  },
+  "deleteTodoTool": {
+    "pikkuFuncName": "deleteTodoTool",
+    "name": "deleteTodoTool",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "usedWires": [
+      "rpc"
+    ],
+    "inputSchemaName": "DeleteTodoToolInput",
+    "outputSchemaName": "DeleteTodoToolOutput",
+    "inputs": [
+      "DeleteTodoToolInput"
+    ],
+    "outputs": [
+      "DeleteTodoToolOutput"
+    ],
+    "isDirectFunction": true
+  },
+  "planDayPrompt": {
+    "pikkuFuncName": "planDayPrompt",
+    "name": "planDayPrompt",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "usedWires": [
+      "rpc"
+    ],
+    "inputSchemaName": "PlanDayPromptInput",
+    "outputSchemaName": "PlanDayPromptOutput",
+    "inputs": [
+      "PlanDayPromptInput"
+    ],
+    "outputs": [
+      "PlanDayPromptOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "prioritizePrompt": {
+    "pikkuFuncName": "prioritizePrompt",
+    "name": "prioritizePrompt",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "usedWires": [
+      "rpc"
+    ],
+    "inputSchemaName": "PrioritizePromptInput",
+    "outputSchemaName": "PrioritizePromptOutput",
+    "inputs": [
+      "PrioritizePromptInput"
+    ],
+    "outputs": [
+      "PrioritizePromptOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "greet": {
+    "pikkuFuncName": "greet",
+    "name": "greet",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "variables"
+      ]
+    },
+    "inputSchemaName": "GreetInput",
+    "outputSchemaName": "GreetOutput",
+    "inputs": [
+      "GreetInput"
+    ],
+    "outputs": [
+      "GreetOutput"
+    ],
+    "expose": true,
+    "isDirectFunction": false
+  },
+  "remoteGreet": {
+    "pikkuFuncName": "remoteGreet",
+    "name": "remoteGreet",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger"
+      ]
+    },
+    "usedWires": [
+      "rpc"
+    ],
+    "inputSchemaName": "RemoteGreetInput",
+    "outputSchemaName": "RemoteGreetOutput",
+    "inputs": [
+      "RemoteGreetInput"
+    ],
+    "outputs": [
+      "RemoteGreetOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "testEventTrigger": {
+    "pikkuFuncName": "testEventTrigger",
+    "name": "testEventTrigger",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger"
+      ]
+    },
+    "usedWires": [
+      "trigger"
+    ],
+    "inputSchemaName": "TestEventTriggerInput",
+    "outputSchemaName": "TestEventTriggerOutput",
+    "inputs": [
+      "TestEventTriggerInput"
+    ],
+    "outputs": [
+      "TestEventTriggerOutput"
+    ],
+    "isDirectFunction": true
+  },
+  "onTestEvent": {
+    "pikkuFuncName": "onTestEvent",
+    "name": "onTestEvent",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "todoStore"
+      ]
+    },
+    "inputSchemaName": "OnTestEventInput",
+    "outputSchemaName": "OnTestEventOutput",
+    "inputs": [
+      "OnTestEventInput"
+    ],
+    "outputs": [
+      "OnTestEventOutput"
+    ],
+    "internal": true,
+    "isDirectFunction": false
+  },
+  "pikkuFn_src_wirings_graph_wiring_ts_L8C9": {
+    "pikkuFuncName": "pikkuFn_src_wirings_graph_wiring_ts_L8C9",
+    "name": "/workflow/review",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "inputSchemaName": null,
+    "outputSchemaName": null,
+    "inputs": [],
+    "outputs": []
+  },
+  "rpcCaller": {
+    "pikkuFuncName": "rpcCaller",
+    "name": "rpcCaller",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "usedWires": [
+      "rpc"
+    ],
+    "inputSchemaName": "RpcCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "RpcCallerInput"
+    ],
+    "outputs": [],
+    "isDirectFunction": false
+  },
+  "pikkuFn_src_wirings_rpc_wiring_ts_L31C9": {
+    "pikkuFuncName": "pikkuFn_src_wirings_rpc_wiring_ts_L31C9",
+    "name": "pikkuFn_src_wirings_rpc_wiring_ts_L31C9",
+    "services": {
+      "optimized": true,
+      "services": []
+    },
+    "inputSchemaName": "PikkuFn_src_wirings_rpc_wiring_ts_L31C9Input",
+    "outputSchemaName": null,
+    "inputs": [
+      "PikkuFn_src_wirings_rpc_wiring_ts_L31C9Input"
+    ],
+    "outputs": [],
+    "isDirectFunction": true
+  }
+}

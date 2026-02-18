@@ -1,0 +1,19 @@
+{
+  "listTodos": "listTodos",
+  "getTodo": "getTodo",
+  "createTodo": "createTodo",
+  "updateTodo": "updateTodo",
+  "deleteTodo": "deleteTodo",
+  "completeTodo": "completeTodo",
+  "getTodoResource": "getTodoResource",
+  "createTodoTool": "createTodoTool",
+  "completeTodoTool": "completeTodoTool",
+  "deleteTodoTool": "deleteTodoTool",
+  "planDayPrompt": "planDayPrompt",
+  "prioritizePrompt": "prioritizePrompt",
+  "greet": "greet",
+  "remoteGreet": "remoteGreet",
+  "testEventTrigger": "testEventTrigger",
+  "onTestEvent": "onTestEvent",
+  "rpcCaller": "rpcCaller"
+}
