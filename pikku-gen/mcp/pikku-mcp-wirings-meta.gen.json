@@ -1,0 +1,81 @@
+{
+  "resourcesMeta": {
+    "todos/{id}": {
+      "pikkuFuncId": "getTodoResource",
+      "uri": "todos/{id}",
+      "title": "Todo Details",
+      "description": "Get details of a specific todo by ID",
+      "tags": [
+        "todos"
+      ],
+      "inputSchema": "GetTodoResourceInput",
+      "outputSchema": "MCPResourceResponse"
+    }
+  },
+  "toolsMeta": {
+    "createTodo": {
+      "pikkuFuncId": "createTodo",
+      "name": "createTodo",
+      "description": "Create a new todo item with title, description, priority, dueDate, and tags",
+      "inputSchema": "CreateTodoInput",
+      "outputSchema": "CreateTodoOutput"
+    },
+    "deleteTodo": {
+      "pikkuFuncId": "deleteTodo",
+      "name": "deleteTodo",
+      "description": "Delete a todo by ID",
+      "inputSchema": "DeleteTodoInput",
+      "outputSchema": "DeleteTodoOutput"
+    },
+    "completeTodo": {
+      "pikkuFuncId": "completeTodo",
+      "name": "completeTodo",
+      "description": "Mark a todo as complete by ID",
+      "inputSchema": "CompleteTodoInput",
+      "outputSchema": "CompleteTodoOutput"
+    }
+  },
+  "promptsMeta": {
+    "planDay": {
+      "pikkuFuncId": "planDayPrompt",
+      "name": "planDay",
+      "description": "Generate a daily plan based on pending todos",
+      "tags": [
+        "productivity",
+        "planning"
+      ],
+      "inputSchema": "PlanDayPromptInput",
+      "outputSchema": "MCPPromptResponse",
+      "arguments": [
+        {
+          "name": "userId",
+          "description": "User ID (uses demo user if not provided)",
+          "required": false
+        }
+      ]
+    },
+    "prioritize": {
+      "pikkuFuncId": "prioritizePrompt",
+      "name": "prioritize",
+      "description": "Help prioritize todos based on urgency, importance, or quick-wins",
+      "tags": [
+        "productivity",
+        "prioritization"
+      ],
+      "inputSchema": "PrioritizePromptInput",
+      "outputSchema": "MCPPromptResponse",
+      "arguments": [
+        {
+          "name": "userId",
+          "description": "User ID (uses demo user if not provided)",
+          "required": false
+        },
+        {
+          "name": "focus",
+          "description": "Prioritization focus",
+          "required": false
+        }
+      ]
+    }
+  }
+}

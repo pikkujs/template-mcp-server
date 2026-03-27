@@ -1,0 +1,17 @@
+{
+  "getTodoResource": "getTodoResource",
+  "planDayPrompt": "planDayPrompt",
+  "prioritizePrompt": "prioritizePrompt",
+  "listTodos": "listTodos",
+  "getTodo": "getTodo",
+  "createTodo": "createTodo",
+  "updateTodo": "updateTodo",
+  "deleteTodo": "deleteTodo",
+  "completeTodo": "completeTodo",
+  "onTestEvent": "onTestEvent",
+  "rpcCaller": "rpcCaller",
+  "agentCaller": "agentCaller",
+  "agentStreamCaller": "agentStreamCaller",
+  "agentApproveCaller": "agentApproveCaller",
+  "agentResumeCaller": "agentResumeCaller"
+}
