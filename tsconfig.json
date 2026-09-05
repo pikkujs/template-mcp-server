@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "module": "node18",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "#pikku/*.js": [
+        "./pikku-gen/*.ts"
+      ],
+      "#pikku/*": [
+        "./pikku-gen/*/index.ts",
+        "./pikku-gen/*"
+      ]
+    }
+  },
+  "include": [
+    "src/",
+    ".pikku/*",
+    "client/mcp.ts",
+    "client/mcp-server.test.ts"
+  ]
+}
